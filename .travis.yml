@@ -5,6 +5,7 @@ addons:
 cache: yarn
 language: node_js
 script: npm run build
+test: true
 node_js:
 - '7'
 before_deploy:
